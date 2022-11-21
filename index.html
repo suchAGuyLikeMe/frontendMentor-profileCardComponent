@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Frontend Mentor | Profile Card Component</title>
+
+        <!--tab icon-->
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" />
+
+        <!--css-->
+        <link rel="stylesheet" href="css/main.css" />
+
+        <!--font-->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Kumbh+Sans" />
+    </head>
+    <body>
+        <main>
+            <img
+                class="profile-bg-image"
+                src="img/bg-pattern-card.svg"
+                alt=""
+                aria-hidden="true" />
+
+            <img
+                class="profile-picture"
+                src="img/image-victor.jpg"
+                alt=""
+                aria-hidden="true" />
+
+            <h1 class="profile-name" tabindex="0" title="Name, Surname and Age">
+                Victor Crest
+                <span class="profile-age">&nbsp;26</span>
+            </h1>
+
+            <p
+                class="profile-location"
+                tabindex="0"
+                title="Victor Crest's Location">
+                London
+            </p>
+            <span class="line"></span>
+
+            <table class="socials">
+                <tr>
+                    <th
+                        aria-label="Eighty thousand"
+                        class="stat-item"
+                        tabindex="0">
+                        80K
+                    </th>
+                    <th
+                        aria-label="Eight hundred and three thousand"
+                        class="stat-item"
+                        tabindex="0">
+                        803K
+                    </th>
+                    <th
+                        aria-label="One thousand four hunderd"
+                        class="stat-item"
+                        tabindex="0">
+                        1.4K
+                    </th>
+                </tr>
+
+                <tr>
+                    <td class="title-item" tabindex="0" title="Followers">
+                        Followers
+                    </td>
+                    <td class="title-item" tabindex="0" title="Likes">Likes</td>
+                    <td class="title-item" tabindex="0" title="Photos">
+                        Photos
+                    </td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>

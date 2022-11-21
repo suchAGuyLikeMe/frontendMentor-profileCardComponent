@@ -1,0 +1,124 @@
+:root {
+    /*#################
+    colors
+    #################*/
+
+    /*#################
+    primary colors
+    #################*/
+
+    --primary-dark-cyan: hsl(185, 75%, 39%);
+    --primary-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --primary-dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*#################
+    neutral colors
+    #################*/
+
+    --neurtral-dark-gray: hsl(0, 0%, 59%);
+
+    /*#################
+    typography
+    #################*/
+
+    /*#################
+    body copy
+    #################*/
+
+    --font-size: 1.125rem;
+
+    /*#################
+    font and weights
+    #################*/
+
+    --font-family: "Kumbh Sans", sans-sarif;
+    --weight-400: 400;
+    --weight-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/bg-pattern-top.svg) no-repeat -600px -400px,
+        url(../img/bg-pattern-bottom.svg) no-repeat 150px 300px,
+        var(--primary-dark-cyan);
+    font-family: var(--font-family);
+    font-size: 0.9375rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 20.625rem;
+    height: 21.875rem;
+    overflow: hidden;
+    background: white;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 1.25rem rgb(0 0 0 / 20%);
+}
+
+.profile-name,
+.stat-item {
+    font-size: var(--font-size);
+    font-weight: var(--weight-700);
+}
+
+.profile-age,
+.profile-location,
+.title-item {
+    font-weight: var(--weight-400);
+}
+
+.profile-bg-image {
+    margin-top: -0.5rem;
+}
+
+.profile-picture {
+    width: 27%;
+    height: 26%;
+    border-radius: 50%;
+    outline: 5px solid white;
+    transform: translateY(-55px);
+}
+
+.profile-name {
+    font-size: 18px;
+    margin-top: -2rem;
+    padding-bottom: 0.5rem;
+}
+
+.profile-location {
+    padding-bottom: 1rem;
+}
+
+.line {
+    display: block;
+    background-color: var(--neurtral-dark-gray);
+    height: 1px;
+}
+
+.socials {
+    width: 100%;
+    padding: 1rem;
+}
+
+.stat-item,
+.title-item {
+    width: 33.33%;
+}
+
+h1,
+p,
+th,
+td {
+    cursor: pointer;
+}
