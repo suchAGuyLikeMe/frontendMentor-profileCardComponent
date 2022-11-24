@@ -45,18 +45,19 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url(../img/bg-pattern-top.svg) no-repeat -600px -400px,
-        url(../img/bg-pattern-bottom.svg) no-repeat 150px 300px,
-        var(--primary-dark-cyan);
+    background-color: var(--primary-dark-cyan);
+    background-image: url(../img/bg-pattern-top.svg),
+        url(../img/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
     font-family: var(--font-family);
     font-size: 0.9375rem;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-main {
+section {
     width: 20.625rem;
     height: 21.875rem;
     overflow: hidden;
@@ -114,11 +115,4 @@ main {
 .stat-item,
 .title-item {
     width: 33.33%;
-}
-
-h1,
-p,
-th,
-td {
-    cursor: pointer;
 }
