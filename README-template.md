@@ -27,10 +27,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 -   tablet
     ![tablet ipad air](screenshots/tablet-ipad-air.PNG)
-    ![tablet ipad air](screenshots/tablet-nest-hub.PNG.PNG)
+    ![tablet nest hub](screenshots/tablet-nest-hub.PNG)
 
 -   mobile
-    ![mobile](screenshots/mobile-iphone-se.PNG.PNG)
+    ![mobile iphone se](screenshots/mobile-iphone-se.PNG.PNG)
+    ![mobile samsung galaxy fold](screenshots/mobile-galaxy-fold.PNG)
 
 ### Links
 

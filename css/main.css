@@ -43,7 +43,6 @@
 }
 
 body {
-    width: 100vw;
     height: 100vh;
     background-color: var(--primary-dark-cyan);
     background-image: url(../img/bg-pattern-top.svg),
@@ -52,14 +51,17 @@ body {
     background-position: right 48vw bottom 40vh, left 45vw top 44vh;
     font-family: var(--font-family);
     font-size: 0.9375rem;
+}
+
+body,
+main{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 section {
-    width: 20.625rem;
-    height: 21.875rem;
+    max-width: 90%;
     overflow: hidden;
     background: white;
     border-radius: 1rem;
@@ -80,6 +82,7 @@ section {
 }
 
 .profile-bg-image {
+    width: 100%;
     margin-top: -0.5rem;
 }
 
